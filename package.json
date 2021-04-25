@@ -1,0 +1,33 @@
+{
+  "name": "sqs-to-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramimoshe/sqs-to-s3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramimoshe/sqs-to-s3/issues"
+  },
+  "homepage": "https://github.com/ramimoshe/sqs-to-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.816.0",
+    "config": "^3.3.3",
+    "js-yaml": "^3.14.1",
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0",
+    "moment-timezone": "^0.5.32",
+    "sqs-consumer": "^5.5.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
